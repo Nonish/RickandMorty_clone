@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 10px; */
+}
+
+.nav-bar img {
+    height: 60px;
+    width: 80px;
+    margin: 10px;
+}
+
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-ul a {
+    padding: 10px 20px;
+    margin: 0px 3px;
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-ul a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+.nav-ul a:nth-child(3) {
+    border: 1px solid orange;
+    border-radius: 15px;
+}
+
+.nav-ul a:nth-child(3):hover {
+    background-color: orange;
+    color: white;
+}
+
+.header-article {
+    display: flex;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.1em;
+    color: rgb(21, 14, 24);
+    font-family: apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(36, 40, 47);
+    padding: 100px 0px 100px 0px;
+}
+
+.card {
+    display: flex;
+    width: 600px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid rgb(60, 62, 68);
+    border-radius: 15px;
+    overflow: hidden;
+    outline: none;
+    background-color: rgb(36, 40, 47) none repeat scroll 0% 0%;
+}
+
+.card-left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(60, 62, 68);
+    color: white;
+    padding: 10px;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.card-left div {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-left div h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.card-left a {
+    color: white;
+    text-decoration: none;
+}
+
+.card-left a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+.card-left p {
+    color: white;
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+    margin-bottom: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(32, 35, 41);
+    text-decoration: none;
+    padding: 100px 0px 100px 0px;
+}
+
+footer a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 0.85em;
+    font-weight: bold;
+}
