@@ -19,7 +19,6 @@ export default class Rickandmortycard extends React.Component {
     }
 
     render() {
-        // console.log(this.props.item.episode);
 
         return (
 
@@ -28,7 +27,7 @@ export default class Rickandmortycard extends React.Component {
                 <div className='card-left'>
                     <div className='left-box'>
                         <h2>
-                            <a href='#'>{this.props.item.name}</a>
+                            <a href="#">{this.props.item.name}</a>
                         </h2>
                         <span></span><span>{this.props.item.status}-{this.props.item.species}</span>
                     </div>

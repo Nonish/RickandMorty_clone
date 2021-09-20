@@ -11,13 +11,13 @@ export default class Rickandmortyheader extends React.Component {
                         <img src={logo} alt="logo" />
                     </a>
                     <ul className='nav-ul'>
-                        <a href='#'>
+                        <a href='https://rickandmortyapi.com/documentation'>
                             Docs
                         </a>
-                        <a href='#'>
+                        <a href='https://rickandmortyapi.com/about'>
                             About
                         </a>
-                        <a href='#'>
+                        <a href="https://rickandmortyapi.com/help-us/">
                             HELP US
                         </a>
                     </ul>

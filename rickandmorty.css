@@ -25,9 +25,10 @@ main {
 }
 
 .nav-bar img {
-    height: 60px;
-    width: 80px;
+    height: 50px;
+    width: 65px;
     margin: 10px;
+    color: grey;
 }
 
 .nav-ul {
@@ -52,17 +53,18 @@ main {
 
 .nav-ul a:nth-child(3) {
     border: 1px solid orange;
-    border-radius: 15px;
+    border-radius: 12px;
 }
 
 .nav-ul a:nth-child(3):hover {
     background-color: orange;
     color: white;
+    transition: all 0.1s ease 0s
 }
 
 .header-article {
     display: flex;
-    height: 350px;
+    height: 300px;
     align-items: center;
     justify-content: center;
     font-size: 2.1em;
@@ -110,7 +112,7 @@ main {
 
 .card-left div h2 {
     font-size: 2em;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .card-left a {
@@ -130,7 +132,7 @@ main {
     margin-bottom: 5px;
 }
 
-.footer {
+footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -139,10 +141,53 @@ main {
     padding: 100px 0px 100px 0px;
 }
 
+.footer-list_1 {
+    display: flex;
+    margin: 16px 0px;
+}
+
+.footer-list_2 {
+    display: flex;
+    margin: 35px 0px 10px 0px;
+}
+
+footer ul img {
+    width: 20px;
+    height: 20px;
+}
+
+footer div img {
+    margin: 10px;
+    width: 125px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 13px;
+    background-color: rgb(51, 51, 51);
+}
+
 footer a {
-    color: white;
-    margin: 20px;
+    color: rgb(158, 158, 158);
     text-decoration: none;
     font-size: 0.85em;
+    margin: 0px 14px;
     font-weight: bold;
+}
+
+footer a:hover {
+    color: orange;
+}
+
+footer p a {
+    color: white;
+    text-decoration: underline solid orange;
+    margin: 3px;
+}
+
+footer p {
+    color: rgb(158, 158, 158);
+}
+
+footer p a:hover {
+    color: orange;
+    cursor: pointer;
 }
